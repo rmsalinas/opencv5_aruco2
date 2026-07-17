@@ -133,6 +133,12 @@ struct CV_EXPORTS_W_SIMPLE DetectionParameters {
      * Default: false (standard black-on-white markers).
      */
     CV_PROP_RW bool detectInvertedMarker = false;
+
+    /** @brief Harris threshold for GPU method
+     *
+     * Default: 80.
+     */
+    CV_PROP_RW float harrisThresh = 80.f;
 };
 
 
